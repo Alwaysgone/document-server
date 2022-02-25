@@ -16,12 +16,7 @@ Before the app can be run diesel needs to create the database. This can be done 
 ```
 diesel setup
 ```
-to create an empty database file called `document-server.db`. The file name can be controlled by setting the `DATABASE_URL` environment variable to another file.
-
-**To create the schema needed run:**
-```
-diesel migration run
-```
+to create a database file called `document-server.db` already setup with the required schema. The file name can be controlled by setting the `DATABASE_URL` environment variable to another file.
 
 After the database has been set up just run
 ```
