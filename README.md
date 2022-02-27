@@ -4,6 +4,9 @@ Sample Rust service based on actix as a web server with diesel as ORM that has a
 
 ## Prerequesites
 
+* cargo
+* diesel cli
+
 To setup the database the diesel cli is used. If you already have a database with the required schema then it isn't required. You can check how to install the diesl cli [here](https://github.com/diesel-rs/diesel/tree/master/diesel_cli).
 
 *HINT: There is also a sqlite bundled version so you don't need to have sqlite installed for this to work. The sample itself uses a bundled driver as well.*
